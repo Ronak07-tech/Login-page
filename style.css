@@ -1,0 +1,33 @@
+    .login{
+        background-color: aqua;
+        border-radius: 30%;
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+
+        
+
+
+    }
+
+    body{
+        height: 100vh;
+        background-color: blanchedalmond;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    button{
+
+        background-color: blue;
+        color: rgb(244, 241, 241);
+
+
+    }
+    :hover button{
+        background-color: aquamarine;
+        color: brown;
+        cursor: pointer;
+    }
+    
