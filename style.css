@@ -4,8 +4,11 @@
         padding: 100px;
         /* display: flex; */
         flex-direction: column;
+        background-image: url(background.jpg);
+        background-position: center;
+        background-size: contain;
+        background-blend-mode: darken;
 
-        
 
 
     }
@@ -16,10 +19,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image:url(imgag.webp);
+        background-image:url(img.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: unset;
+        background-size: cover;
         background-attachment: fixed;
 
     }
@@ -27,12 +30,14 @@
 
         background-color: blue;
         color: rgb(244, 241, 241);
+        
+        border-radius: 12vh;
 
 
     }
     :hover button{
-        background-color: aquamarine;
-        color: brown;
+        background-color:rgb(49, 3, 255) ;
+        color: black;
         cursor: pointer;
     }
     
