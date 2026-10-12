@@ -30,9 +30,13 @@
 
         background-color: blue;
         color: rgb(244, 241, 241);
-        
         border-radius: 12vh;
-
+        /* border-width: 1.1vh; */
+        padding: 5.5px;
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+        
 
     }
     :hover button{
