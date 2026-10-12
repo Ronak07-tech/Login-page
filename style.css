@@ -16,6 +16,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background-image:url(imgag.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: unset;
+        background-attachment: fixed;
 
     }
     button{
